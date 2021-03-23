@@ -77,7 +77,7 @@ public class OutputD {
         }
         
         
-        int kurang = 100000-total4;
+        int kurang = 100000-total3;
         if(total3>=100000){
             System.out.println(" ");
             System.out.println("Selamat!");
@@ -89,7 +89,7 @@ public class OutputD {
         }else{
             System.out.println("");
             System.out.println("Ayo Beli Lagi!");
-            System.out.println("Pembelian anda kurang " +kurang +" lagi nih!");
+            System.out.println("Pembelian anda kurang" +kurang +" lagi nih!");
         }
     }
     
